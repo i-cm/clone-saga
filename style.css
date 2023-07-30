@@ -1,0 +1,29 @@
+body {
+    background: black;
+}
+
+button {
+  background: black;
+  border: none;
+}
+
+* {
+  font-family: "roboto";
+}
+
+#idk {
+  border: 2px white solid;
+  height: 56%;
+}
+
+.e {
+  text-align: right;
+}
+
+#select {
+  text-align: center;
+}
+
+#idk {
+  allowglitch: 1;
+}
