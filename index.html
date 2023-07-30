@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Clone Saga</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="q">
+    <button onclick="startup()">Startup!</button><button onclick="startup(disc)">Insert disc</button>
+  </div>
+  <div id="iq0" style="display: none;">
+    This VM is running.<br>
+    <button onclick="bruh()">F11</button>
+  </div>
+  <div id="idk" style="display: none;" width="100" height="56">
+    <video width="100%" height="56%" id="startup">
+      <source src="startup.mp4" type="video/mp4">
+      
+      This browser hates videos >:(
+    </video>
+    <div id="disc">
+      
+    </div>
+    <div id="main" style="display: none;">
+      <div id="a">
+        Menu
+        <br><span class="e" id="clock"></span><br><br>
+        <div id="select">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+  <script src="disc.js"></script>
+</body>
+</html>
